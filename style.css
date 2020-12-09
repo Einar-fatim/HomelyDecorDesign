@@ -1,0 +1,615 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+@media(max-width:100%){
+    .webpage{
+        display: grid;
+        grid-template-rows: auto;
+    }
+}
+
+
+/* SECTION-1 HEADER */
+
+
+.sec1{
+    background-image: url(images/Mask%20Group%201.png);
+    background-repeat:no-repeat;
+    width: 100%;
+    height: 989px;
+    background-size: 100% 989px;
+}
+.navbar{
+    display: flex;
+    padding-top: 20px;
+}
+.logo{
+    color: #FFFFFF;
+    font-size: 40px;
+    padding: 50px 0px 0px 70px;
+}
+.list{
+    padding-top: 30px;
+    padding-left: 400px;
+    display: flex;
+}
+.listmenu{
+    display: flex;
+    list-style: none;
+}
+.li-itm{
+    color: #FFFFFF;
+    font-size: 22px;
+    padding: 20px;
+}
+.icons{
+    display: flex;
+    padding-left: 40px;
+    padding-top: 30px;
+    align-items: center;
+    flex: auto;
+    color: #FFFFFF;
+}
+.search-icon{
+    flex-basis: 40px;
+}
+.cart{
+     flex-basis: 40px;
+}
+.contact{
+     flex-basis: 40px;
+}
+.content1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.head{
+    color: #FFFFFF;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 50px;
+}
+.info1{
+    white-space: nowrap;
+    font-size: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: -40px;
+}
+.shop-btn{
+    color: #FFFFFF;
+    font-size: 26px;
+    border: 2px solid #FFFFFF;
+    padding: 10px 50px;
+    margin-top: 50px;
+}
+@media(max-width: 550px){
+    .sec1{
+        width: 100%;
+        height: 480px;
+        background-size: 100% 480px;
+    }
+    .listmenu{
+        display: none;
+    }
+    .navbar{
+        display: flex;
+        align-content: space-between;
+    }
+    .logo{
+        font-size: 22px;
+        flex-basis: 350px;
+    }
+    .list{
+        flex-basis: 500px;
+        padding-left: 0px;
+    }
+    .icons{
+       margin-right: 30px;
+       display: none;
+    }
+    .content1{
+        display:flex;
+        flex-direction: column;
+    }
+    .head{
+        margin-top: -50px;
+        font-size: 24px;
+    }
+    .info1{
+       font-size:11px;
+       padding-top: 20px;
+
+    }
+    .shop-btn{
+        color: #FFFFFF;
+        font-size: 14px;
+        border: 1px solid #FFFFFF;
+        padding: 4px 10px;
+        margin-top: 15px;
+    }
+}
+
+
+
+/* SECTION-2 */
+
+
+
+.sec2{
+    display: grid;
+    grid-template-areas: 
+        "img1 img2"
+        "img1 img3";
+    grid-gap: 10px;
+    justify-content: center;
+    padding: 100px;
+}
+.img1{
+    grid-area: img1;
+    background-image: url(images/Mask%20Group%206.png);
+    height: 508px;
+    width: 430px;
+    background-repeat: no-repeat;
+    background-size: 430px 520px;
+}
+
+.info2{
+    background: black;
+    height: 127px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    opacity: 60%;
+    margin-top: 380px;
+}
+.pframe{
+    color: #FFFFFF;
+    font-size: 36px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.sframe{
+    color: #FFFFFF;
+    font-size: 24px;
+    margin-left: 20px;
+}
+.img2{
+    grid-area: img2;
+}
+.img3{
+    grid-area: img3;
+}
+@media (max-width: 550px){
+    .sec2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        grid-gap: 10px;
+    }
+    .img1{
+        width: 400px;
+    }
+}
+
+
+
+/* SECTION-3 */
+
+
+.sec3{
+    background: #FFFFFF;
+    height: 1550px;
+    width: 100%;
+}
+.features{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    padding-top: 70px;
+   
+}
+.feature{
+    color: black;
+    font-size: 50px;
+    padding: 10px;
+}
+.featinfo{
+    color: black;
+    font-size: 24px;
+    opacity: 60%;
+    padding: 8px;
+}
+.featimg{
+    padding: 12px;
+}
+.navagation{
+    padding-left: 81px;
+}
+.listsofnav{
+    display: flex;
+    list-style: none;  
+    margin: 0;
+    padding-left: 120px;
+}
+.tag1{
+    font-size: 24px;
+    opacity: 60%;
+    padding: 20px;
+} 
+.tag2{
+    font-size: 24px;
+    padding: 20px;
+}
+.gridof3{
+    display: grid;
+    grid-template-columns:repeat(3,200px);
+    margin-left: -150px;
+    padding-top: 20px;
+    grid-column-gap: 180px;
+    justify-content: center;
+}
+.view-btn{
+    color: black;
+    text-align: center;
+    border: 3px black solid;
+    background: none;
+    margin-left: 610px;
+    margin-top: 50px;
+    padding: 10px 50px;
+    font-size: 24px;
+}
+@media(max-width:550px){
+    .sec3{
+        height: 3850px;
+    }
+    .feature{
+        font-size: 24px;
+    }
+    .featinfo{
+        text-align: center;
+        font-size: 19px;
+    }
+    .listsofnav{
+        display: flex;
+        flex-direction: column;
+        margin-left: -200px;
+    }
+    .tag1,.tag2{
+        font-size: 19px;
+        text-align: center;
+    }
+    .gridof3{
+        display: flex;
+        flex-direction: column;
+        margin-left: 100px;
+        justify-content: center;
+    }
+    .pricing{
+        margin-left: 130px;
+    }
+    .view-btn{
+        margin-left: 200px;
+        margin-top: 50px;
+        padding: 10px 30px;
+        font-size: 20px;
+    }
+}
+
+
+/* SECTION-4 */
+
+
+.sec4{
+    background-color: none;
+}
+.arrival{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.newArrival{
+    font-size: 50px;
+    padding-top: 10px;
+}
+.arrivalinfo{
+    padding-top: -30px;
+    white-space: nowrap;
+    font-size: 24px;
+}
+.flexbox{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    grid-gap: 20px;
+}
+.leftarrow,.rightarrow{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 50px;
+}
+.mainpic{
+    background-image: url(images/Mask%20Group%2025.png);
+    background-repeat: no-repeat;
+    background-size: 250px 250px;
+}
+.rectangle{
+    width: 250px;
+    height: 70px;
+    background: black;
+    opacity: 60%;
+    color: #FFFFFF;
+    margin-top: 200px;
+}
+.headingbar{  
+    font-size: 12px;
+    padding: 10px;
+}
+.infobar{
+    padding: 10px;
+}
+@media(max-width:550px)
+{
+    .newArrival{
+        font-size: 28px;
+    }
+    .arrivalinfo{
+        font-size: 19px;
+        white-space: nowrap;
+    }
+    .flexbox{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 50px;
+        padding-bottom: 60px;
+    }
+    .leftarrow,.rightarrow{
+        display: none;
+    }
+}
+
+
+/* SECTION-5 */
+
+
+.sec5{
+    background-image: url(images/Mask%20Group%2026.png);
+    height: 700px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 643px;
+    margin-top: 120px;
+}
+.contentof5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.exclusive{
+    margin-top: 50px;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 40px;
+}
+.offer{
+    font-size: 40px;
+    text-align: center;
+}
+.limited{
+    font-size: 22px;
+    text-align: center;
+    margin-top: 30px;
+}
+.shpbtn{
+    display: flex;
+    justify-content: center;
+}
+.shp-btn{
+    margin-top: 30px;
+    color: black;
+    text-align: center;
+    border: 2px black solid;
+    background: none;
+    padding: 5px 25px;
+    font-size: 24px;
+}
+@media(max-width:550px){
+    .sec5{
+        width: 100%;
+        height: 400px;
+        background-size: 100% 400px;
+    }
+    .exclusive{
+        padding-top: 0px;    
+        font-size: 30px;
+    }
+    .offer{
+        font-size: 26px;
+    }
+    .limited{
+        font-size: 19px;
+        margin-top: 20px;
+    }
+    .shp-btn{
+        margin-top: 20px;
+        padding: 8px 15px;
+        font-size: 16px;
+     }
+}
+
+
+
+/* SECTION-6 */
+
+
+.sec6{
+    height: 570px;
+}
+.header6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
+.whyus{
+    font-size: 50px;
+    text-align: center;
+}
+.whyinfo{
+    font-size: 24px;
+    text-align: center;
+    opacity: 70%;
+    padding-top: 10px;
+}
+.contentof6{
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3,400px);
+    margin-top: 60px;
+    justify-content: center;
+}
+.delivery{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.guarantee{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.return{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.delinfo{
+    color: gray;
+}
+.guainfo{
+    color: gray;
+}
+.retinfo{
+    color: gray;
+}
+@media(max-width:550px){
+    .sec6{
+        height: 900px;
+    }
+    .whyus{
+        font-size: 28px;
+    }
+    .whyinfo{
+        font-size: 19px;
+        white-space: nowrap;
+    }
+    .contentof6{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        grid-gap: 100px;
+    }
+}
+
+
+/* SECTION-7 */
+
+
+.sec7{
+    margin-top: -100px;
+    height: 700px;
+    background: #FFFFFF; 
+}
+.contentof7{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3,400px);
+    padding: 150px 40px 0px 40px;
+    grid-gap: 20px;
+}
+.headingbar{
+    font-size: 40px;
+    padding-top: 50px;
+}
+.deatailsbar{
+    margin-top: -40px;
+    font-size: 18px;
+    color: gray;
+}
+.socailmedia{
+    color: orange;
+}
+.mainof7{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    padding-top: 100px;
+    padding-left: 70px;
+}
+.link1{
+    font-size: 20px;
+}
+.link2{
+    font-size: 18px;
+    opacity: 70%;
+    padding-top: 15px;
+}
+@media(max-width:550px){
+    .sec7{
+        height: auto;
+    }
+    .contentof7{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 50px;
+    }
+    .iconsocial{
+        margin-left: 160px;
+        margin-top: 15px;
+    }
+    .headingbar{
+        font-size: 26px;
+        padding-top: 0px;
+        text-align: center;
+    }
+    .deatailsbar{
+        text-align: center;
+        margin-left: -10px;
+        padding-left: 10px;
+    }
+    .mainof7{
+        padding-top: 30px;
+        margin-left: 60px;
+        padding-left: 0px;
+        text-align: center;
+    }
+    .imgpart{
+        margin-left: 60px;
+    }
+}
+
+/* FOOTER */
+
+.footer{
+    height: 50px;
+    width: 99.2%;
+    color: #FFFFFF;
+    background:#273343;
+}
+.footercontent{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    padding-top: 17px;
+}
